@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <title>Latihan Akses File JSON</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Latihan JSON</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./">Data Mahasiswa</a></li>
+                    <li><a href="./index.html?jk=L">Laki - laki</a></li>
+                    <li><a href="./index.html?jk=P">Perempuan</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="./">Data Mahasiswa</a></li>
+        <li><a href="./index.html?jk=L">Laki - Laki</a></li>
+        <li><a href="./index.html?jk=P">Perempuan</a></li>
+    </ul>
+    <div class="container">
+        <div id="mhs-list" class="row">
+
+        </div>
+    </div>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
